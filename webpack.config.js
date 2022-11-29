@@ -11,6 +11,15 @@ module.exports = {
     filename: "principal.js",
     path: __dirname + "/public",
   },
+  optimization: {
+    minimizer: [
+      new UglifyJsPlugin({
+        cache: true,
+        parallel: true,
+      }),
+      new OptimizeCSSAssetsPlugin({}),
+    ],
+  },
   plugins: [
     new MiniCssExtractPlugin({
       filename: "estilo.css",
@@ -26,6 +35,10 @@ module.exports = {
           "css-loader",
           "sass-loader",
         ],
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: ["file-loader"],
       },
     ],
   },

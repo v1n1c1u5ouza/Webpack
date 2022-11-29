@@ -14,6 +14,7 @@
   "author": "Vinicius de Souza Marinho",
   "license": "ISC",
   "devDependencies": {
+    "file-loader": "1.1.11",
     "cross-env": "5.1.5",
     "optimize-css-assets-webpack-plugin": "4.0.1",
     "uglifyjs-webpack-plugin": "1.2.5",
