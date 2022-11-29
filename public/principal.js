@@ -82,6 +82,29 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 
 /***/ }),
 
+/***/ "./src/assets/index.js":
+/*!*****************************!*\
+  !*** ./src/assets/index.js ***!
+  \*****************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_estilo_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/estilo.css */ \"./src/assets/css/estilo.css\");\n/* harmony import */ var _css_estilo_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_estilo_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/index.scss */ \"./src/assets/scss/index.scss\");\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_index_scss__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n//# sourceURL=webpack:///./src/assets/index.js?");
+
+/***/ }),
+
+/***/ "./src/assets/scss/index.scss":
+/*!************************************!*\
+  !*** ./src/assets/scss/index.scss ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/assets/scss/index.scss?");
+
+/***/ }),
+
 /***/ "./src/pessoa.js":
 /*!***********************!*\
   !*** ./src/pessoa.js ***!
@@ -101,7 +124,7 @@ eval("module.exports = class Pessoa {\n  cumprimentar() {\n    return \"Bom dia\
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_css_estilo_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/css/estilo.css */ \"./src/assets/css/estilo.css\");\n/* harmony import */ var _assets_css_estilo_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_assets_css_estilo_css__WEBPACK_IMPORTED_MODULE_0__);\nconst Pessoa = __webpack_require__(/*! ./pessoa */ \"./src/pessoa.js\");\n\n\nconst atendente = new Pessoa();\nconsole.log(atendente.cumprimentar());\n\n\n//# sourceURL=webpack:///./src/principal.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets */ \"./src/assets/index.js\");\nconst Pessoa = __webpack_require__(/*! ./pessoa */ \"./src/pessoa.js\");\n\n\nconst atendente = new Pessoa();\nconsole.log(atendente.cumprimentar());\n\n\n//# sourceURL=webpack:///./src/principal.js?");
 
 /***/ })
 
